@@ -1,4 +1,4 @@
-module github.com/brpaz/github-actions-demo-go
+module github.com/hermitkim1/github-actions-demo-go
 
 go 1.12
 
