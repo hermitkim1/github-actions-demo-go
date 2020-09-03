@@ -38,6 +38,9 @@ jobs:
 
       - name: Check out code
         uses: actions/checkout@v1
+        
+      - name: Run Unit tests.
+        run: make test-coverage
 
   build:
     name: Build
